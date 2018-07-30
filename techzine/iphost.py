@@ -1,14 +1,15 @@
-# 
+# /develop/cmd/python/socket
+# /develop/cmd/python/pandas_csv
 # python3.6.5
 
 from pathlib import Path
 import pandas as pd
-from socket import gethostbyaddr
+import socket
 
 def ip2host(ip):
     try:
-        return gethostbyaddr(ip)[0]
-    except:
+        return socket.gethostbyaddr(ip)[0]
+    except socket.error:
         return pd.np.nan
 
 ### constant
