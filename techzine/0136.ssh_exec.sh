@@ -1,6 +1,8 @@
 #!/bin/sh
-# apt install zip
-# apt install sshpass / 
+
+# sudo apt install cron
+# sudo apt install zip
+# sudo apt install sshpass  # case CentOS: before. sudo yum install epel-release
 # need authorized key(all servers)
 
 user='user'
