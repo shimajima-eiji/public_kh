@@ -35,15 +35,3 @@ if [ ! "${output}" = '/dev/null' ]; then
   zip -r ${sav_log}.zip ${sav_log}
   rm -rf ${sav_log}
 fi
-||<
-
-** cron
->|sh|
-0 */1 * * * sh ~/ssh_exec.sh "top -b -n 1" cron
-0 */1 * * * sh ~/ssh_exec.sh "free -m" cron
-0 */1 * * * sh ~/ssh_exec.sh "ps aux" cron
-0 */1 * * * sh ~/ssh_exec.sh "df" cron
-
-*/1 * * * * mkdir -p ~/$(date "+\%Y/\%m/\%d")
-59 23 */1 * *  find ~/ -name "*$(date '+\%Y\%m\%d')*" -exec mv {} ~/$(date '+\%Y/\%m/\%d') \\; 2>>~/cron.log
-||<
