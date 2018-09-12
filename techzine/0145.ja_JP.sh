@@ -15,8 +15,8 @@ yum install langpacks-ja
 ## date -> JST
 apt install tzdata
 # 6. Asia
-# 78. Tokyo(Japanではない)
-dpkg-reconfigure tzdata  # 
+# 78. Tokyo(Not 'Japan')
+dpkg-reconfigure tzdata  # Is that necessary?
 date
 # JST
 
