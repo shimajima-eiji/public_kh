@@ -1,5 +1,3 @@
-# 記事版間違えました。0131です
-
 # nodeインストール
 # 構築時点の安定版
 wget https://nodejs.org/dist/v8.11.4/node-v8.11.4-linux-x64.tar.xz
