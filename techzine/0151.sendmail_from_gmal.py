@@ -6,7 +6,7 @@ GMAIL_USER = '(user)'
 GMAIL_PASS = '(pass)'
 
 # Mail parameter
-TOADDR = '(slackbot@workspace.slack.com)'
+TOADDR = '(slackbot)@(your workspace).slack.com)'
 
 subject = '日本語'  # Japanese
 body = 'メッセージ\n改行も'  # Message, and new line
