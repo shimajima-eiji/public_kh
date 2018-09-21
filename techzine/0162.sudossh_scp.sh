@@ -42,7 +42,7 @@ yes
 # [option] using config
 # You can change config expantion by modify script
 jq
-yq  (need python)
+yq  # need python
 
 HELP
 
