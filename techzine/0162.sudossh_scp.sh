@@ -39,6 +39,10 @@ sh $0 ssh localhost ifconfig
 sshpass
 yes
 
+# [option] using config
+# You can change config expantion by modify script
+jq
+yq  (need python)
 
 HELP
 
