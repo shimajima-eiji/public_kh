@@ -1,0 +1,19 @@
+default:
+  user: user
+  pass: pass
+server:
+  localhost:
+    iphost: 127.0.0.1
+    port: 22
+  root:
+    iphost: 192.168.1.1
+    port: 22
+  roouterB:
+    iphost: 192.168.11.1
+    port: 22
+    node01:
+      iphost: 192.168.11.2
+      port: 22
+    node02:
+      iphost: 192.168.11.3
+      port: 22
