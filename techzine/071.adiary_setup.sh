@@ -31,9 +31,7 @@ cd /var/www/html
 cat <<__EOS >>.htaccess
 RewriteEngine on
 # https://nomuraya.work
-RewriteCond     %{HTTP_HOST}            ^xxx\.xxx\.xxx\.xxx$   #(xxx:IPaddress V4)
-RewriteRule     ^(.*)$                  https://nomuraya.work/$1 [L]
-RewriteCond     %{HTTP_HOST}            ^www\.nomuraya\.work$
+RewriteCond     %{HTTP_HOST}            !^nomuraya\.work$
 RewriteRule     ^(.*)$                  https://nomuraya.work/$1 [L]
 RewriteCond     %{HTTPS}                !on
 RewriteRule     ^(.*)$                  https://nomuraya.work/$1 [L]
