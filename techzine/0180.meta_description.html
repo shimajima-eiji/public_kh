@@ -1,0 +1,18 @@
+<!-- comment
+- test page
+  - https://nomuraya.work/bizidea/meta_description
+-->
+
+...
+<meta name="description" content="index page">
+...
+
+<script>
+var change_description = 'override by script';
+var tags = $('head').head.children();
+for(var i = 0;i < tags.length;i++){
+  if(tags.eq(i).attr('name') === 'description'){
+    tags.eq(i).attr('content', change_description);
+  }
+}
+</script>
