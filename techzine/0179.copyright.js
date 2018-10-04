@@ -17,6 +17,6 @@ $(function(write_date){
   var s = article.getSeconds();
   // 参考情報　ここまで */
   
-  // id:cpに張り付ける
+  // id:copyrightに張り付ける
   $('#copyright').text("Copyright: https://nomuraya.work/ since " + y);
 });
