@@ -4,10 +4,10 @@ https://www.nomuraya.work/techzine/
 main article for github
 
 ## future
-- https://www.nomuraya.work/adiary/
-  - for adiary(CMS) users and community
-- https://www.nomuraya.work/affiliate/
-  - for affiliater in Japanese
+- for adiary(CMS) users and community
+  - https://www.nomuraya.work/adiary/
+- for affiliater in Japanese
+  - https://www.nomuraya.work/affiliate/
 
 アフィリエイトブログって表現をやめてサイト作りをがんばる全ての人に、と差し替えるか？
 
