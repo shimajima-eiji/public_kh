@@ -1,25 +1,2 @@
-# cron: 0 0 * * * (restart).sh
-
-ssh_exec() {
-  node=${server}$1
-  ssh -i ${key_path} -p ${port} ${user}@${node} "${cmd}"
-}
-
-### user config
-key_path=
-port=
-user=
-server=
-
-### reboot nodes
-# cmd="service mapr-zookeeper stop; service mapr-warden stop;"
-#
-### restart service
-### service: $(maprcli node list -columns svc)
-# cmd="maprcli node services -name (collectd) -nodes '${node}' -action restart"
-#
-### cores present error
-# cmd="find /opt/cores/ -type f -exec rm {} \;"
-#
-### exec
-for i in $(seq -w XX); do ssh_exec $i; done
+# move to: https://gist.github.com/shimajima-eiji/115ad9d07b169f68c8464a0525f99d37
+# Usage:   https://nomuraya.work/techzine/0169
